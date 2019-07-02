@@ -62,7 +62,9 @@
 
 ### 9. Order all the companies by their IPO price descendently.
 
-<!-- Your Code Goes Here -->
+<!-- 
+    Sort: {"ipo.valuation_amount": -1}
+-->
 
 ### 10. Retrieve the 10 companies with more employees, order by the `number of employees`
 

@@ -75,7 +75,10 @@
 
 ### 11. All the companies founded on the second semester of the year. Limit your search to 1000 companies.
 
-<!-- Your Code Goes Here -->
+<!-- 
+    Filter: {founded_month: {$gt : 6}}
+    Limit: 1000
+-->
 
 ### 12. All the companies that have been 'deadpooled' after the third year.
 

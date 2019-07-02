@@ -50,12 +50,15 @@
 ### 7. All the companies that have a null type of value on the `category_code` field.
 
 <!-- 
-    Filter: {category_code : null}
+    Filter: {category_code : null}  
  -->
 
 ### 8. All the companies that have at least 100 employees but less than 1000. Retrieve only the `name` and `number of employees` fields.
 
-<!-- Your Code Goes Here -->
+<!-- 
+    Filter: {number_of_employees: {$gte: 100, $lt: 1000}}
+    Project: {_id: 0, name: 1, number_of_employees: 1} 
+-->
 
 ### 9. Order all the companies by their IPO price descendently.
 
